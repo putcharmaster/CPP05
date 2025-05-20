@@ -1,7 +1,8 @@
-NAME =
+NAME = ex03_buro
 CC = c++ -Wall -Wextra -Werror -std=c++98
 
-SRC = main.cpp
+SRC = main.cpp AForm.cpp Bureaucrat.cpp PresidentialPardonForm.cpp\
+		RobotomyRequestForm.cpp ShrubberyCreationForm.cpp Intern.cpp
 OBJ = $(SRC:.cpp=.o)
 
 all: $(NAME)
